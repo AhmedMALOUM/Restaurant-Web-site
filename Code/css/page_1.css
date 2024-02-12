@@ -1,0 +1,56 @@
+@font-face {
+    font-family: "segoe ui";
+    src: url(/font/segoe-ui-4-cufonfonts/Segoe\ UI\ Bold.ttf);
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    font-family: "segoe ui";
+}
+
+body {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.page_1 {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*___________________corp de la page_______*/
+
+.corp {
+    margin-top: 400px;
+    display: flex;
+    flex-direction: row;
+    height: 660px;
+    background-image: url(./../../images/acceil/page1.png);
+    background-repeat: no-repeat;
+    background-size: 1450px 650px;
+}
+
+.floue {
+    width: 35%;
+    opacity: 70%;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    
+}
+.logo_{
+    background-color: rgb(224, 195, 64);
+    height: 50vh;
+}
+.text {
+    color: rgb(37, 37, 36);
+    padding: 35px;
+    font-size: 20px;
+    text-align: center;
+
+
+}

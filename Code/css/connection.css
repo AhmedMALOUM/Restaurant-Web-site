@@ -1,0 +1,65 @@
+::placeholder,.date
+ {
+    color: rgb(243, 243, 243);
+}
+a{
+    color: rgba(2, 202, 252, 0.815);
+}
+body{
+    margin-top: 0;
+    background-image: url(../images/fond_insc_con.png);
+    height: 100vh;
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+/* Formulaire */
+#container{
+    width:400px;
+    margin:0 auto;
+    
+}
+
+form {
+
+    margin-top: 120px;
+    width:100%;
+    padding: 30px;
+    border: 1px solid rgb(156, 152, 152);
+    background:  rgba(83, 83, 87, 0.616);
+    box-shadow: 0 0 20px 0 rgba(0, 0, 0, 0.2), 0 5px 5px 0 rgba(0, 0, 0, 0.24);
+}
+#container h1{
+    width: 38%;
+    margin: 0 auto;
+    padding-bottom: 10px;
+}
+
+
+input[type=text], input[type=password] {
+    width: 100%;
+    padding: 12px 20px;
+    margin: 8px 0;
+    display: inline-block;
+    border: 1px solid #ccc;
+    box-sizing: border-box;
+    background-color: rgba(8, 8, 8, 0.5);
+    color: rgb(243, 243, 243);
+}
+
+
+input[type=submit] {
+    background-color: #53af57;
+    color: white;
+    padding: 14px 20px;
+    margin: 8px 0;
+    border: none;
+    cursor: pointer;
+    width: 100%;
+    font-size: 18px;
+    background-color:  rgba(8, 8, 8, 0.5);
+    color: rgb(255, 254, 254);
+}
+input[type=submit]:hover {
+    background-color:rgba(238, 231, 231, 0.5);
+    color: rgb(7, 6, 7);
+}

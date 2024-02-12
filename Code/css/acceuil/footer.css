@@ -1,0 +1,81 @@
+.footer_ {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../../images/acceil/fond.png);
+    height: 50vh;
+    background-repeat: no-repeat;
+    background-size: 1550px 400px;
+
+}
+
+.logo_f {
+    display:hidden;
+    height: 50%;
+}
+
+.contact_info {
+    display: flex;
+    flex-direction: row;
+    align-items: stretch;
+    display:hidden;
+    height: 40%;
+}
+
+.r_sociaux {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    
+    height: 10%;
+    width: 60%;
+    margin-left: 20%;
+}
+
+.call {
+    order: 1;
+    
+    height: 100%;
+    width: 34%;
+}
+
+.find {
+    order: 2;
+    display:hidden;
+    height: 100%;
+    width: 33%;
+}
+
+.mail_us {
+    order: 3;
+   
+    height: 100%;
+    width: 33%;
+}
+
+.fb {
+    
+    height: 100%;
+    width: 33%;
+}
+
+.twitter {
+    display:hidden;
+    height: 100%;
+    width: 33%;
+}
+
+.insta {
+    display:hidden;
+    height: 100%;
+    width: 33%;
+}
+.footer {
+    display: flex;
+    flex-direction: column;
+    background-image: url(../../images/icon/footer.png);
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: 1000px 400px;
+    margin: 0 0 0 15%;
+
+}

@@ -1,0 +1,68 @@
+/*_____________Acceuil Page 1_____________*/
+@font-face {
+    font-family: "segoe ui";
+    src: url('../../font/segoe-ui-4-cufonfonts/Segoe\ UI\ Bold.ttf');
+}
+
+a{
+    text-decoration: none;
+}
+* {
+
+    margin: 0;
+    padding: 0;
+    font-family: "segoe ui";
+}
+
+/*____________Fin initialisations______________*/
+
+body {
+    
+    display: flex;
+    flex-direction: column;
+}
+
+.page_1 {
+    
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+
+/*_______corp de la page_______*/
+
+.corp {
+    margin-top: 80px;
+    display: flex;
+    flex-direction: row;
+    height: 660px;
+    background-image: url(../../images/acceil/page1.png);
+    background-repeat: no-repeat;
+    background-size: 1550px 650px;
+}
+
+.floue {
+    width: 35%;
+    opacity: 70%;
+    background-color: white;
+    display:flex;
+    flex-direction: column;
+    
+}
+.logo_ { 
+    margin:0; 
+    height: 50vh;
+}
+.logo_ img{ 
+    margin:0; 
+    height: 35%;
+    padding: 15%;
+    padding-top: 30%;
+}
+.text {
+    color: rgb(37, 37, 36);
+    padding: 35px;
+    font-size: 20px;
+    text-align: center;
+}

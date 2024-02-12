@@ -1,0 +1,49 @@
+.page_2 {
+   background-image: url("../../images/acceil/page2.png");
+    height: 100vh;
+    background-size:1500px 650px;
+    background-position: center; 
+}
+
+
+.button {
+    top: 57%;
+    left: 65%;
+    position: relative;
+    border-radius: 4px;
+    background-color: #ffffff;
+    border: none;
+    color: #FCB539;
+    text-align: center;
+    font-size: 28px;
+    padding: 20px;
+    width: 370px;
+    transition: all 0.5s;
+    cursor: pointer;
+    margin: 5px;
+}
+
+.button span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+
+.button span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+
+.button:hover span {
+    padding-right: 25px;
+}
+
+.button:hover span:after {
+    opacity: 1;
+    right: 0;
+}
